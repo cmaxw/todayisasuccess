@@ -1,0 +1,6 @@
+<div style="text-align: center;">
+  <p class="main">To make today a <strong>success</strong>, if I get <em>just one thing</em> done today, it would be{{ today|orEllipsis }}</p>
+  <input class="form-control" type="text" placeholder="Clean the office" style="width: 50%; margin: 0 auto; float: none;" ng-model="today" ng-change="submitForm()">
+  <br>
+  <button ng-click="markSuccess()" ng-if="today" class="btn btn-primary btn-lg">I've finished this! My day is a success!</button>
+</div>

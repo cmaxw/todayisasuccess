@@ -1,0 +1,17 @@
+p.main {
+  font-size: 2em;
+}
+
+p.main strong {
+  text-decoration: underline;
+}
+
+.success_list {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.success_list li {
+  font-size: 2em;
+}
